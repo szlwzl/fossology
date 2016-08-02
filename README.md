@@ -35,6 +35,8 @@ A pre-built Docker image is available from [Docker Hub](https://hub.docker.com/r
 docker run -p 8081:80 fossology/fossology
 ```
 
+To connect to the UI, visit http://IP.ADD.RE.SS/repo - default username/password is fossy/fossy.
+
 Execution with external database container can be done using Docker Compose.
 The Docker Compose file is located under the `/install` folder can can be run using following command:
 ``` sh
